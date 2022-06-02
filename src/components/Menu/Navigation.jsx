@@ -1,17 +1,16 @@
 import React from "react";
-import { Navlink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function Navigation(props) {
   return (
-    <div>
       <nav
         className="navbar navbar-expand-md navbar-dark bg-dark"
         aria-label="Fourth navbar example"
       >
         <div className="container-fluid">
-          <Navlink className="navbar-brand" to="/">
+          <NavLink className="navbar-brand" to="/">
             Expand at md
-          </Navlink>
+          </NavLink>
           <button
             className="navbar-toggler"
             type="button"
@@ -27,24 +26,24 @@ function Navigation(props) {
           <div className="collapse navbar-collapse" id="navbarsExample04">
             <ul className="navbar-nav me-auto mb-2 mb-md-0">
               <li className="nav-item">
-                <Navlink className="nav-link active" aria-current="page" to="/">
+                <NavLink className="nav-link active" aria-current="page" to="/">
                   Home
-                </Navlink>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <Navlink className="nav-link" to="watches">
+                <NavLink className="nav-link" to="watches">
                   Watches
-                </Navlink>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <Navlink className="nav-link" to="Mobiles">
+                <NavLink className="nav-link" to="Mobiles">
                   Mobiles
-                </Navlink>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <Navlink className="nav-link" to="Appliances">
+                <NavLink className="nav-link" to="Appliances">
                   Appliances
-                </Navlink>
+                </NavLink>
               </li>
             </ul>
             <form>
@@ -58,7 +57,6 @@ function Navigation(props) {
           </div>
         </div>
       </nav>
-    </div>
   );
 }
 

@@ -1,6 +1,6 @@
 import React from 'react';
 
-function FrontEndLayout(props) {
+function Dashboard(props) {
     return (
         <div>
             
@@ -8,4 +8,4 @@ function FrontEndLayout(props) {
     );
 }
 
-export default FrontEndLayout;
+export default Dashboard;
